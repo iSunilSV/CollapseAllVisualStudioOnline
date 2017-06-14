@@ -6,7 +6,7 @@ The below code help you achieve that using a short Javascript code!<b>
 ```javascript
 javascript: function f() 
 { 
-  for (var i = 0; i <= 50; i++) { 
+  for (var i = 0; i <= 100; i++) { 
     (document.querySelectorAll('[title="Collapse this row"]')[i]).click(); 
   } 
 }; f();
@@ -26,7 +26,7 @@ javascript: function f()
 ```javascript
 javascript: function f() 
 { 
-  for (var i = 0; i <= 50; i++) { 
+  for (var i = 0; i <= 100; i++) { 
     (document.querySelectorAll('[title="Expand this row"]')[i]).click(); 
   } 
 }; f();
